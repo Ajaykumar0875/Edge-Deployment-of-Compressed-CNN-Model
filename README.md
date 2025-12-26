@@ -23,12 +23,12 @@ This project implements a highly optimized **MobileNetV2** pipeline for the **CI
 
 ## 📊 Results
 
-| Model Variation | Precision | Size (MB) | Accuracy | Latency (CPU) |
-| :--- | :--- | :--- | :--- | :--- |
 | Model Variation | Precision | Size (MB) | Accuracy | Latency (CPU) | Peak Memory |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Baseline** | FP32 | ~20.9 MB | **94.6%** | 99.9 ms | ~96.8 MB |
-| **Quantized** | **INT8** | **~2.6 MB** | **90.0%** | **7.91 ms** | **~9.8 MB** |
+| **Baseline** | FP32 | ~20.9 MB | **92.6%** | 99.9 ms | ~96.8 MB |
+| **Quantized** | **INT8** | **~2.6 MB** | **88.0%** | **7.98 ms** | **~9.8 MB** |
+
+*Note: Achieved **4x compression** with minimal (<1.5%) accuracy loss.*
 
 *Note: Achieved **4x compression** with minimal (<1.5%) accuracy loss.*
 
