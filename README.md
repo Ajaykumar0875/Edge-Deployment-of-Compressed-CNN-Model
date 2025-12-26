@@ -52,14 +52,3 @@ This project implements a highly optimized **MobileNetV2** pipeline for the **CI
     ```bash
     python Code.py
     ```
-
-## 📂 Project Structure
-
-*   `Code.py`: Main pipeline script (Training -> Quantization -> Eval).
-*   `model_pipeline.py`: (Legacy) Initial Food-101 pipeline implementation.
-*   `benchmark_results.json`: Auto-generated performance report.
-*   `model_quantized.tflite`: Final INT8 model ready for deployment.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
