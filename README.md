@@ -38,6 +38,19 @@ This project implements a highly optimized **MobileNetV2** pipeline for the **CI
     cd Edge-Deployment-of-Compressed-CNN-Model
     ```
 
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+   
+3.  **Run the Pipeline**
+    To train the model, quantize it, and generate the benchmark report:
+    ```bash
+    python Code.py
+    ```
+
 ## 📂 Project Structure
 
 *   `Code.py`: Main pipeline script (Training -> Quantization -> Eval).
