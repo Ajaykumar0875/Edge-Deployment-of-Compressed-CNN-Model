@@ -1,0 +1,13 @@
+{
+    "baseline": {
+        "accuracy": 0.9360,
+        "latency_ms": 99.95,
+        "size_mb": 20.95
+    },
+    "quantized": {
+        "accuracy": 0.8993,
+        "latency_ms": 7.98,
+        "size_mb": 2.59,
+        "note": "Post-training INT8 quantization with float I/O interface"
+    }
+}
