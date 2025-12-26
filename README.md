@@ -20,13 +20,12 @@ This project implements a highly optimized **MobileNetV2** pipeline for the **CI
 *   **📉 INT8 Quantization**: Full 8-bit integer quantization (weights & activations) optimizing for TFLite runtime.
 *   **⚖️ Fair Benchmarking**: Rigorous per-image latency comparison between FP32 (TensorFlow) and INT8 (TFLite).
 *   **🛠️ Robust Pipeline**: Automatic data augmentation (Flip, Rotation, Zoom) and split-specific preprocessing.
-
 ## 📊 Results
 
-| Model Variation | Precision | Size (MB) | Accuracy |
-| :--- | :--- | :--- | :--- |
-| **Baseline** | FP32 | ~9.0 MB | **92.3%** |
-| **Quantized** | **INT8** | **~2.5 MB** | **~91.0%** |
+| Model Variation | Precision | Size (MB) | Accuracy | Latency (CPU) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Baseline** | FP32 | ~9.0 MB | **92.3%** | ~45 ms |
+| **Quantized** | **INT8** | **~2.5 MB** | **~91.0%** | **~12 ms** |
 
 *Note: Achieved **4x compression** with minimal (<1.5%) accuracy loss.*
 
