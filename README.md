@@ -52,3 +52,19 @@ This project implements a highly optimized **MobileNetV2** pipeline for the **CI
     ```bash
     python Code.py
     ```
+
+
+    
+4.  **Deployment (Inference Server)**
+    Start the Flask API to serve the optimized model:
+    ```bash
+    python server.py
+    ```
+
+5.  **Test the Server**
+    In a new terminal, run the test script (generates dummy image or accepts file path):
+    ```bash
+    python test_server.py
+    # OR
+    python test_server.py path/to/your/image.jpg
+    ```
